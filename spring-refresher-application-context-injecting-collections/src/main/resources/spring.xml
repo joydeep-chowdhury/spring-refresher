@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="triangle" class="joydeep.self.learning.spring.refresher.application.context.injecting.collections.models.Triangle">
+        <property name="type" value="Equilateral"/>
+        <property name="points">
+            <list>
+                <ref bean="point1"/>
+                <ref bean="point2"/>
+                <ref bean="point3"/>
+            </list>
+        </property>
+        <constructor-arg value="Red"/>
+        <constructor-arg value="20"/>
+    </bean>
+
+    <bean id="point1" class="joydeep.self.learning.spring.refresher.application.context.injecting.collections.models.Point">
+        <property name="x" value="0"/>
+        <property name="y" value="0"/>
+    </bean>
+    <bean id="point2" class="joydeep.self.learning.spring.refresher.application.context.injecting.collections.models.Point">
+        <property name="x" value="10"/>
+        <property name="y" value="0"/>
+    </bean>
+    <bean id="point3" class="joydeep.self.learning.spring.refresher.application.context.injecting.collections.models.Point">
+        <property name="x" value="5"/>
+        <property name="y" value="8"/>
+    </bean>
+</beans>

@@ -11,6 +11,7 @@
     <modules>
         <module>spring-refresher-bean-factory</module>
         <module>spring-refresher-application-context</module>
+        <module>spring-refresher-application-context-injecting-collections</module>
     </modules>
 
 
