@@ -13,6 +13,7 @@
         <module>spring-refresher-application-context</module>
         <module>spring-refresher-application-context-injecting-collections</module>
         <module>spring-refresher-application-context-aware</module>
+        <module>spring-refresher-lifecycle-callbacks</module>
     </modules>
 
 
