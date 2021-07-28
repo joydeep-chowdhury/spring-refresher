@@ -5,31 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9df70ad8-12ca-4306-8a99-65eba3896a64" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-refresher-lifecycle-callbacks/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-refresher-lifecycle-callbacks/src/main/java/joydeep/self/learning/spring/refresher/lifecycle/callbacks/DrawingApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-refresher-lifecycle-callbacks/src/main/java/joydeep/self/learning/spring/refresher/lifecycle/callbacks/models/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-refresher-lifecycle-callbacks/src/main/java/joydeep/self/learning/spring/refresher/lifecycle/callbacks/models/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-refresher-lifecycle-callbacks/src/main/resources/spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-refresher-lifecycle-callbacks/target/classes/joydeep/self/learning/spring/refresher/application/context/aware/DrawingApp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-refresher-lifecycle-callbacks/target/classes/joydeep/self/learning/spring/refresher/application/context/aware/models/Point.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-refresher-lifecycle-callbacks/target/classes/joydeep/self/learning/spring/refresher/application/context/aware/models/Triangle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-refresher-lifecycle-callbacks/target/classes/spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-refresher-lifecycle-callbacks/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-refresher-lifecycle-callbacks/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-refresher-lifecycle-callbacks/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-refresher-lifecycle-callbacks/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-refresher-lifecycle-callbacks/target/spring-refresher-application-context-aware-1.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-refresher-application-context-aware/src/main/java/joydeep/self/learning/spring/refresher/application/context/aware/DrawingApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-refresher-application-context-aware/src/main/java/joydeep/self/learning/spring/refresher/lifecycle/callbacks/DrawingApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-refresher-application-context-aware/src/main/java/joydeep/self/learning/spring/refresher/application/context/aware/models/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-refresher-application-context-aware/src/main/java/joydeep/self/learning/spring/refresher/lifecycle/callbacks/models/Point.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-refresher-application-context-aware/src/main/java/joydeep/self/learning/spring/refresher/application/context/aware/models/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-refresher-application-context-aware/src/main/java/joydeep/self/learning/spring/refresher/lifecycle/callbacks/models/Triangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-refresher-application-context-aware/src/main/resources/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-refresher-application-context-aware/src/main/resources/spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-refresher-application-context-injecting-collections/src/main/java/joydeep/self/learning/spring/refresher/application/context/aware/DrawingApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-refresher-application-context-injecting-collections/src/main/java/joydeep/self/learning/spring/refresher/lifecycle/callbacks/DrawingApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-refresher-application-context-injecting-collections/src/main/java/joydeep/self/learning/spring/refresher/application/context/aware/models/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-refresher-application-context-injecting-collections/src/main/java/joydeep/self/learning/spring/refresher/lifecycle/callbacks/models/Point.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-refresher-application-context-injecting-collections/src/main/java/joydeep/self/learning/spring/refresher/application/context/aware/models/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-refresher-application-context-injecting-collections/src/main/java/joydeep/self/learning/spring/refresher/lifecycle/callbacks/models/Triangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-refresher-application-context-injecting-collections/src/main/resources/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-refresher-application-context-injecting-collections/src/main/resources/spring.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +162,7 @@
       <updated>1627228882079</updated>
       <workItem from="1627228883247" duration="3973000" />
       <workItem from="1627284187746" duration="1570000" />
-      <workItem from="1627409312901" duration="2773000" />
+      <workItem from="1627409312901" duration="2920000" />
     </task>
     <servers />
   </component>

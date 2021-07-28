@@ -1,0 +1,48 @@
+# Testing tools
+.allure/
+allure-results/
+!allure-results/categories.json
+
+# Code Coverage tools
+jacoco-it.exec
+
+# Eclipse
+.classpath
+.project
+.metadata
+.settings/
+.cache-main
+.cache-tests
+.checkstyle
+.pmd
+.pmdruleset.xml
+.ruleset
+.checkstyle/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+/OffersUI/HTML5Application/nbproject/private/
+/OffersUI/public_html/build/node_modules/
+
+# Docker
+Build/**/*.jar
+Build/Docker/**/*.war
+Build/Docker/**/*.zip
+Build/Docker/**/*.gz
+Build/Docker/**/*.tgz
+
+# Local
+OffersUI/public_html/js/localhost.js
+/UIComponents/public_html/nbproject/private/
+/ai-core-libraries/AISparkCommon/src/main/scala/oracle/aiapps/common/spark/AISparkContext.scala
+/nb-configuration.xml
