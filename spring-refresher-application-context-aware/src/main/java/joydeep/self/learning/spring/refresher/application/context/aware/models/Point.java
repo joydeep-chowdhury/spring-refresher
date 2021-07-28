@@ -1,4 +1,4 @@
-package joydeep.self.learning.spring.refresher.application.context.injecting.collections.models;
+package joydeep.self.learning.spring.refresher.application.context.aware.models;
 
 public class Point {
 

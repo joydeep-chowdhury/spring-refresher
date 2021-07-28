@@ -6,9 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-refresher-application-context" />
         <module name="spring-refresher-application-context-injecting-collections" />
         <module name="spring-refresher-bean-factory" />
+        <module name="spring-refresher-application-context" />
+        <module name="spring-refresher-application-context-aware" />
       </profile>
     </annotationProcessing>
   </component>

@@ -1,6 +1,6 @@
-package joydeep.self.learning.spring.refresher.application.context.injecting.collections;
+package joydeep.self.learning.spring.refresher.application.context.aware;
 
-import joydeep.self.learning.spring.refresher.application.context.injecting.collections.models.Triangle;
+import joydeep.self.learning.spring.refresher.application.context.aware.models.Triangle;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
