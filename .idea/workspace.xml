@@ -5,36 +5,62 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9df70ad8-12ca-4306-8a99-65eba3896a64" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-refresher-bean-post-processor/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-refresher-bean-post-processor/src/main/java/joydeep/self/learning/spring/refresher/bean/postprocessor/processors/DisplayNameBeanPostProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-refresher-bean-post-processor/src/main/resources/spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-refresher-lifecycle-callbacks/src/main/java/joydeep/self/learning/spring/refresher/bean/postprocessor/DrawingApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-refresher-lifecycle-callbacks/src/main/java/joydeep/self/learning/spring/refresher/bean/postprocessor/models/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-refresher-lifecycle-callbacks/src/main/java/joydeep/self/learning/spring/refresher/bean/postprocessor/models/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-refresher-beanfactory-post-processor/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-refresher-beanfactory-post-processor/src/main/java/joydeep/self/learning/spring/refresher/beanfactory/postprocessor/models/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-refresher-beanfactory-post-processor/src/main/java/joydeep/self/learning/spring/refresher/beanfactory/postprocessor/processors/CustomBeanFactoryPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-refresher-beanfactory-post-processor/src/main/java/joydeep/self/learning/spring/refresher/beanfactory/postprocessor/processors/DisplayNameBeanPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-refresher-beanfactory-post-processor/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-refresher-beanfactory-post-processor/src/main/resources/spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-refresher-coding-to-interfaces/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-refresher-coding-to-interfaces/src/main/java/joydeep/self/learning/spring/refresher/beanfactory/postprocessor/DrawingApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-refresher-coding-to-interfaces/src/main/java/joydeep/self/learning/spring/refresher/beanfactory/postprocessor/models/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-refresher-coding-to-interfaces/src/main/java/joydeep/self/learning/spring/refresher/beanfactory/postprocessor/models/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-refresher-coding-to-interfaces/src/main/java/joydeep/self/learning/spring/refresher/beanfactory/postprocessor/models/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-refresher-coding-to-interfaces/src/main/java/joydeep/self/learning/spring/refresher/beanfactory/postprocessor/models/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-refresher-coding-to-interfaces/src/main/java/joydeep/self/learning/spring/refresher/beanfactory/postprocessor/processors/CustomBeanFactoryPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-refresher-coding-to-interfaces/src/main/java/joydeep/self/learning/spring/refresher/beanfactory/postprocessor/processors/DisplayNameBeanPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-refresher-coding-to-interfaces/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-refresher-coding-to-interfaces/src/main/resources/spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-refresher-lifecycle-callbacks/src/main/java/joydeep/self/learning/spring/refresher/beanfactory/postprocessor/DrawingApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-refresher-lifecycle-callbacks/src/main/java/joydeep/self/learning/spring/refresher/beanfactory/postprocessor/models/Triangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-refresher-application-context-aware/src/main/java/joydeep/self/learning/spring/refresher/lifecycle/callbacks/DrawingApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-refresher-application-context-aware/src/main/java/joydeep/self/learning/spring/refresher/bean/postprocessor/DrawingApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-refresher-application-context-aware/src/main/java/joydeep/self/learning/spring/refresher/lifecycle/callbacks/models/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-refresher-application-context-aware/src/main/java/joydeep/self/learning/spring/refresher/bean/postprocessor/models/Point.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-refresher-application-context-aware/src/main/java/joydeep/self/learning/spring/refresher/lifecycle/callbacks/models/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-refresher-application-context-aware/src/main/java/joydeep/self/learning/spring/refresher/bean/postprocessor/models/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-refresher-application-context-aware/src/main/java/joydeep/self/learning/spring/refresher/bean/postprocessor/DrawingApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-refresher-application-context-aware/src/main/java/joydeep/self/learning/spring/refresher/beanfactory/postprocessor/DrawingApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-refresher-application-context-aware/src/main/java/joydeep/self/learning/spring/refresher/bean/postprocessor/models/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-refresher-application-context-aware/src/main/java/joydeep/self/learning/spring/refresher/beanfactory/postprocessor/models/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-refresher-application-context-aware/src/main/java/joydeep/self/learning/spring/refresher/bean/postprocessor/models/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-refresher-application-context-aware/src/main/java/joydeep/self/learning/spring/refresher/beanfactory/postprocessor/models/Triangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-refresher-application-context-aware/src/main/resources/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-refresher-application-context-aware/src/main/resources/spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-refresher-application-context-aware/target/classes/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-refresher-application-context-aware/target/classes/spring.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-refresher-application-context-aware/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-refresher-application-context-aware/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-refresher-application-context-aware/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/spring-refresher-application-context-aware/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-refresher-application-context-aware/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/spring-refresher-application-context-aware/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-refresher-application-context-aware/target/spring-refresher-application-context-aware-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spring-refresher-application-context-aware/target/spring-refresher-application-context-aware-1.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-refresher-application-context-injecting-collections/src/main/java/joydeep/self/learning/spring/refresher/lifecycle/callbacks/DrawingApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-refresher-application-context-injecting-collections/src/main/java/joydeep/self/learning/spring/refresher/bean/postprocessor/DrawingApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-refresher-application-context-injecting-collections/src/main/java/joydeep/self/learning/spring/refresher/lifecycle/callbacks/models/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-refresher-application-context-injecting-collections/src/main/java/joydeep/self/learning/spring/refresher/bean/postprocessor/models/Point.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-refresher-application-context-injecting-collections/src/main/java/joydeep/self/learning/spring/refresher/lifecycle/callbacks/models/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-refresher-application-context-injecting-collections/src/main/java/joydeep/self/learning/spring/refresher/bean/postprocessor/models/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-refresher-application-context-injecting-collections/src/main/java/joydeep/self/learning/spring/refresher/bean/postprocessor/DrawingApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-refresher-application-context-injecting-collections/src/main/java/joydeep/self/learning/spring/refresher/beanfactory/postprocessor/DrawingApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-refresher-application-context-injecting-collections/src/main/java/joydeep/self/learning/spring/refresher/bean/postprocessor/models/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-refresher-application-context-injecting-collections/src/main/java/joydeep/self/learning/spring/refresher/beanfactory/postprocessor/models/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-refresher-application-context-injecting-collections/src/main/java/joydeep/self/learning/spring/refresher/bean/postprocessor/models/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-refresher-application-context-injecting-collections/src/main/java/joydeep/self/learning/spring/refresher/beanfactory/postprocessor/models/Triangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-refresher-application-context-injecting-collections/src/main/resources/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-refresher-application-context-injecting-collections/src/main/resources/spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-refresher-application-context-injecting-collections/target/classes/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-refresher-application-context-injecting-collections/target/classes/spring.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-refresher-application-context-injecting-collections/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-refresher-application-context-injecting-collections/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-refresher-application-context-injecting-collections/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/spring-refresher-application-context-injecting-collections/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-refresher-application-context-injecting-collections/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/spring-refresher-application-context-injecting-collections/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-refresher-application-context-injecting-collections/target/spring-refresher-application-context-injecting-collections-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spring-refresher-application-context-injecting-collections/target/spring-refresher-application-context-injecting-collections-1.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-refresher-application-context/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-refresher-application-context/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-refresher-application-context/target/spring-refresher-application-context-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spring-refresher-application-context/target/spring-refresher-application-context-1.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-refresher-bean-factory/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-refresher-bean-factory/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-refresher-bean-factory/target/spring-refresher-bean-factory-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spring-refresher-bean-factory/target/spring-refresher-bean-factory-1.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-refresher-lifecycle-callbacks/src/main/java/joydeep/self/learning/spring/refresher/lifecycle/callbacks/DrawingApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-refresher-bean-post-processor/src/main/java/joydeep/self/learning/spring/refresher/bean/postprocessor/DrawingApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-refresher-lifecycle-callbacks/src/main/java/joydeep/self/learning/spring/refresher/lifecycle/callbacks/models/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-refresher-bean-post-processor/src/main/java/joydeep/self/learning/spring/refresher/bean/postprocessor/models/Point.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-refresher-lifecycle-callbacks/src/main/java/joydeep/self/learning/spring/refresher/lifecycle/callbacks/models/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-refresher-bean-post-processor/src/main/java/joydeep/self/learning/spring/refresher/bean/postprocessor/models/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-refresher-bean-post-processor/src/main/java/joydeep/self/learning/spring/refresher/bean/postprocessor/DrawingApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-refresher-bean-post-processor/src/main/java/joydeep/self/learning/spring/refresher/beanfactory/postprocessor/DrawingApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-refresher-bean-post-processor/src/main/java/joydeep/self/learning/spring/refresher/bean/postprocessor/models/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-refresher-bean-post-processor/src/main/java/joydeep/self/learning/spring/refresher/beanfactory/postprocessor/models/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-refresher-bean-post-processor/src/main/java/joydeep/self/learning/spring/refresher/bean/postprocessor/models/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-refresher-bean-post-processor/src/main/java/joydeep/self/learning/spring/refresher/beanfactory/postprocessor/models/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-refresher-bean-post-processor/src/main/java/joydeep/self/learning/spring/refresher/bean/postprocessor/processors/DisplayNameBeanPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-refresher-bean-post-processor/src/main/java/joydeep/self/learning/spring/refresher/beanfactory/postprocessor/processors/DisplayNameBeanPostProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-refresher-bean-post-processor/src/main/resources/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-refresher-bean-post-processor/src/main/resources/spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-refresher-lifecycle-callbacks/src/main/java/joydeep/self/learning/spring/refresher/bean/postprocessor/DrawingApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-refresher-beanfactory-post-processor/src/main/java/joydeep/self/learning/spring/refresher/beanfactory/postprocessor/DrawingApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-refresher-lifecycle-callbacks/src/main/java/joydeep/self/learning/spring/refresher/bean/postprocessor/models/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-refresher-lifecycle-callbacks/src/main/java/joydeep/self/learning/spring/refresher/beanfactory/postprocessor/models/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-refresher-lifecycle-callbacks/src/main/java/joydeep/self/learning/spring/refresher/bean/postprocessor/models/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-refresher-beanfactory-post-processor/src/main/java/joydeep/self/learning/spring/refresher/beanfactory/postprocessor/models/Triangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-refresher-lifecycle-callbacks/src/main/resources/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-refresher-lifecycle-callbacks/src/main/resources/spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-refresher-lifecycle-callbacks/target/classes/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-refresher-lifecycle-callbacks/target/classes/spring.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-refresher-lifecycle-callbacks/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-refresher-lifecycle-callbacks/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-refresher-lifecycle-callbacks/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/spring-refresher-lifecycle-callbacks/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-refresher-lifecycle-callbacks/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/spring-refresher-lifecycle-callbacks/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-refresher-lifecycle-callbacks/target/spring-refresher-lifecycle-callbacks-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spring-refresher-lifecycle-callbacks/target/spring-refresher-lifecycle-callbacks-1.0.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +74,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -94,26 +121,13 @@
       <recent name="joydeep.self.learning.spring.refresher.application.context" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DrawingApp (5)">
+  <component name="RunManager" selected="Application.DrawingApp (1)">
     <configuration name="DrawingApp (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joydeep.self.learning.spring.refresher.application.context.DrawingApp" />
-      <module name="spring-refresher-application-context" />
+      <option name="MAIN_CLASS_NAME" value="joydeep.self.learning.spring.refresher.beanfactory.postprocessor.DrawingApp" />
+      <module name="spring-refresher-coding-to-interfaces" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="joydeep.self.learning.spring.refresher.application.context.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DrawingApp (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joydeep.self.learning.spring.refresher.application.context.injecting.collections.DrawingApp" />
-      <module name="spring-refresher-application-context-injecting-collections" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="joydeep.self.learning.spring.refresher.application.context.injecting.collections.*" />
+          <option name="PATTERN" value="joydeep.self.learning.spring.refresher.beanfactory.postprocessor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,6 +174,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DrawingApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joydeep.self.learning.spring.refresher.beanfactory.postprocessor.DrawingApp" />
+      <module name="spring-refresher-beanfactory-post-processor" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="joydeep.self.learning.spring.refresher.beanfactory.postprocessor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -175,11 +202,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DrawingApp (1)" />
+        <item itemvalue="Application.DrawingApp" />
         <item itemvalue="Application.DrawingApp (5)" />
         <item itemvalue="Application.DrawingApp (4)" />
         <item itemvalue="Application.DrawingApp (3)" />
-        <item itemvalue="Application.DrawingApp (2)" />
-        <item itemvalue="Application.DrawingApp (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +221,7 @@
       <workItem from="1627228883247" duration="3973000" />
       <workItem from="1627284187746" duration="1570000" />
       <workItem from="1627409312901" duration="3101000" />
-      <workItem from="1627730152353" duration="806000" />
+      <workItem from="1627730152353" duration="3499000" />
     </task>
     <servers />
   </component>

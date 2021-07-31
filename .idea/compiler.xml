@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-refresher-bean-factory" />
         <module name="spring-refresher-bean-post-processor" />
         <module name="spring-refresher-application-context-injecting-collections" />
+        <module name="spring-refresher-beanfactory-post-processor" />
         <module name="spring-refresher-lifecycle-callbacks" />
-        <module name="spring-refresher-bean-factory" />
         <module name="spring-refresher-application-context" />
+        <module name="spring-refresher-coding-to-interfaces" />
         <module name="spring-refresher-application-context-aware" />
       </profile>
     </annotationProcessing>
