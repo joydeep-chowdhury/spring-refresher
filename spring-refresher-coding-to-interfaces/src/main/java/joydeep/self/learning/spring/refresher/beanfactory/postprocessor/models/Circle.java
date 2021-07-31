@@ -2,6 +2,8 @@ package joydeep.self.learning.spring.refresher.beanfactory.postprocessor.models;
 
 import org.springframework.beans.factory.DisposableBean;
 import org.springframework.beans.factory.InitializingBean;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Required;
 
 public class Circle implements Shape, InitializingBean, DisposableBean {
 
@@ -25,7 +27,7 @@ public class Circle implements Shape, InitializingBean, DisposableBean {
     @Override
     public String toString() {
         return "Circle{" +
-                "centre=" + centre +
+                "centre=" + getCentre() +
                 '}';
     }
 
@@ -33,6 +35,8 @@ public class Circle implements Shape, InitializingBean, DisposableBean {
         return centre;
     }
 
+    @Required
+    @Autowired
     public void setCentre(Point centre) {
         this.centre = centre;
     }
