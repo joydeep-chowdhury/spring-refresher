@@ -28,4 +28,5 @@
         <property name="x" value="5"/>
         <property name="y" value="8"/>
     </bean>
+    <bean class="joydeep.self.learning.spring.refresher.bean.postprocessor.processors.DisplayNameBeanPostProcessor"/>
 </beans>

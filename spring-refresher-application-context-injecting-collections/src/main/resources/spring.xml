@@ -3,7 +3,7 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="triangle" class="joydeep.self.learning.spring.refresher.lifecycle.callbacks.models.Triangle">
+    <bean id="triangle" class="joydeep.self.learning.spring.refresher.bean.postprocessor.models.Triangle">
         <property name="type" value="Equilateral"/>
         <property name="points">
             <list>
@@ -16,15 +16,15 @@
         <constructor-arg value="20"/>
     </bean>
 
-    <bean id="point1" class="joydeep.self.learning.spring.refresher.lifecycle.callbacks.models.Point">
+    <bean id="point1" class="joydeep.self.learning.spring.refresher.bean.postprocessor.models.Point">
         <property name="x" value="0"/>
         <property name="y" value="0"/>
     </bean>
-    <bean id="point2" class="joydeep.self.learning.spring.refresher.lifecycle.callbacks.models.Point">
+    <bean id="point2" class="joydeep.self.learning.spring.refresher.bean.postprocessor.models.Point">
         <property name="x" value="10"/>
         <property name="y" value="0"/>
     </bean>
-    <bean id="point3" class="joydeep.self.learning.spring.refresher.lifecycle.callbacks.models.Point">
+    <bean id="point3" class="joydeep.self.learning.spring.refresher.bean.postprocessor.models.Point">
         <property name="x" value="5"/>
         <property name="y" value="8"/>
     </bean>

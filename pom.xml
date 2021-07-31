@@ -14,6 +14,7 @@
         <module>spring-refresher-application-context-injecting-collections</module>
         <module>spring-refresher-application-context-aware</module>
         <module>spring-refresher-lifecycle-callbacks</module>
+        <module>spring-refresher-bean-post-processor</module>
     </modules>
 
 
