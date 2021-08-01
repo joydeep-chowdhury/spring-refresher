@@ -5,7 +5,11 @@ import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Required;
 
-public class Circle implements Shape, InitializingBean, DisposableBean {
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
+
+
+public class Circle implements Shape {
 
     private Point centre;
 
@@ -14,13 +18,13 @@ public class Circle implements Shape, InitializingBean, DisposableBean {
         System.out.println("Circle drawn with centre " + centre);
     }
 
-    @Override
+    @PreDestroy
     public void destroy() throws Exception {
         System.out.println("Destroying bean " + this);
     }
 
-    @Override
-    public void afterPropertiesSet() throws Exception {
+    @PostConstruct
+    public void init() throws Exception {
         System.out.println("Initializing bean " + this + " after setting properties");
     }
 

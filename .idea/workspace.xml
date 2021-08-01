@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9df70ad8-12ca-4306-8a99-65eba3896a64" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-refresher-coding-to-interfaces/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-refresher-coding-to-interfaces/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-refresher-coding-to-interfaces/src/main/java/joydeep/self/learning/spring/refresher/beanfactory/postprocessor/models/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-refresher-coding-to-interfaces/src/main/java/joydeep/self/learning/spring/refresher/beanfactory/postprocessor/models/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-refresher-coding-to-interfaces/src/main/resources/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-refresher-coding-to-interfaces/src/main/resources/spring.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +168,7 @@
       <workItem from="1627228883247" duration="3973000" />
       <workItem from="1627284187746" duration="1570000" />
       <workItem from="1627409312901" duration="3101000" />
-      <workItem from="1627730152353" duration="4675000" />
+      <workItem from="1627730152353" duration="5278000" />
     </task>
     <servers />
   </component>
